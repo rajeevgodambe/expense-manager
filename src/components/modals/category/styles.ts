@@ -1,0 +1,86 @@
+import { StyleSheet } from "react-native";
+import { Theme } from "@react-navigation/native";
+
+export const createStyles = (theme: Theme) =>
+  StyleSheet.create({
+    overlay: {
+      flex: 1,
+      backgroundColor: theme.colors.overlay,
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    modalBox: {
+      width: "85%",
+      backgroundColor: theme.colors.card,
+      borderRadius: 15,
+      padding: 20,
+      borderWidth: 1,
+      borderColor: theme.colors.border,
+      elevation: 10,
+      shadowColor: "#000",
+      shadowOpacity: 0.25,
+      shadowRadius: 10,
+      shadowOffset: { width: 0, height: 4 },
+    },
+    title: {
+      fontSize: 20,
+      fontWeight: "700",
+      marginBottom: 15,
+      color: theme.colors.text,
+    },
+    input: {
+      height: 50,
+      borderWidth: 1,
+      borderColor: theme.colors.border,
+      borderRadius: 10,
+      paddingHorizontal: 15,
+      fontSize: 16,
+      marginBottom: 8,
+      backgroundColor: (theme as any).colors.inputBg,
+      color: theme.colors.text,
+    },
+    button: {
+      flex: 1.2,
+      height: 50,
+      backgroundColor: theme.colors.primary,
+      borderRadius: 10,
+      alignItems: "center",
+      justifyContent: "center",
+      marginBottom: 10,
+    },
+    buttonText: {
+      color: theme.colors.card,
+      fontWeight: "700",
+      fontSize: 16,
+    },
+    closeButton: {
+      flex: 1,
+      height: 50,
+      borderWidth: 1,
+      borderColor: theme.colors.primary,
+      borderRadius: 10,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    closeText: {
+      color: theme.colors.primary,
+      fontWeight: "700",
+      fontSize: 16,
+    },
+    row: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      padding: 8,
+      borderRadius: 12,
+      // borderWidth: 1,
+      borderColor: theme.colors.border,
+      marginBottom: 4,
+      // backgroundColor: (theme as any).colors.inputBg,
+      // backgroundColor: '#1E1E1E',
+    },
+    label: {
+      fontSize: 16,
+      color: theme.colors.text,
+    },
+  });
