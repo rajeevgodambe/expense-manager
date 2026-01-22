@@ -66,3 +66,74 @@ npx react-native run-android
 - Since there are very limited services built as this as build keeping offline in mind, there is very likely change of rework of services while scaling the application
 - Because of limited time could not do delet/edit functionalities
 
+
+## 📸 App Screenshots
+
+### 🔐 Sign Up
+
+| Screen | Preview |
+|------|--------|
+| Create Account (Dark) | <img src="screenshots/create_account_black.jpg" width="250" /> |
+| Create Account (Light) | <img src="screenshots/create_account_white.jpg" width="250" /> |
+
+---
+
+### 🔑 Login
+
+| Screen | Preview |
+|------|--------|
+| Login (Dark) | <img src="screenshots/login_black.jpg" width="250" /> |
+| Login (Light) | <img src="screenshots/login_white.jpg" width="250" /> |
+
+---
+
+### 📊 Dashboard
+
+| Screen | Preview |
+|------|--------|
+| Dashboard (Dark) | <img src="screenshots/dashboard_black.jpg" width="250" /> |
+| Dashboard (Light) | <img src="screenshots/dashboard_white.jpg" width="250" /> |
+
+---
+
+### 🗂️ Category
+
+| Screen | Preview |
+|------|--------|
+| Category List | <img src="screenshots/category_list_black.jpg" width="250" /> |
+| Add Category | <img src="screenshots/add_category_black.jpg" width="250" /> |
+
+---
+
+### 💸 Expenses
+
+| Screen | Preview |
+|------|--------|
+| Expenses List | <img src="screenshots/expenses_list_black.jpg" width="250" /> |
+| Add Expense | <img src="screenshots/add_expense_black.jpg" width="250" /> |
+| Add Expense Error | <img src="screenshots/add_expense_error_black.jpg" width="250" /> |
+
+---
+
+### 🧪 Misc
+
+| Preview |
+|--------|
+| <img src="screenshots/Screenshot_20260122_224425_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224436_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224451_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224457_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224502_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224511_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224526_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_224557_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_231210_expense_manager.jpg" width="250" /> |
+| <img src="screenshots/Screenshot_20260122_231214_expense_manager.jpg" width="250" /> |
+
+
+## 🎥 App Demo Video
+
+<video width="450" height="450" controls>
+  <source src="screenshots/app_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
